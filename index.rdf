@@ -1,149 +1,150 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
-  xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:dcat="http://www.w3.org/ns/dcat#"
-  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <foaf:homepage>https://data.some.org/catalog/platform1</foaf:homepage>
-    <dct:description>플랫폼 설명 상세</dct:description>
-    <dct:title>플랫폼 명칭</dct:title>
-    <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
-    <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
-    <dct:language>ko</dct:language>
-    <dct:publisher>
-      <foaf:Organization>
-        <foaf:name>OO 플랫폼</foaf:name>
-        <foaf:mbox>contact@some.org</foaf:mbox>
-      </foaf:Organization>
-    </dct:publisher>
-    <dct:identifier>https://data.some.org/catalog/platform1</dct:identifier>
-    <dcat:theme>날씨</dcat:theme>
-    <dct:type>platform</dct:type>
-
-    <dcat:catalog>
-      <dcat:Catalog rdf:about="https://data.some.org/catalog/platform1/center1">
-        <foaf:homepage>https://platform1-center1.data.some.org</foaf:homepage>
-        <dct:description>센터 설명 상세</dct:description>
-        <dct:title>센터 명칭</dct:title>
+        xmlns:dct="http://purl.org/dc/terms/"
+        xmlns:dcat="http://www.w3.org/ns/dcat#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <dcat:Catalog rdf:about="https://data.some.org/catalog/platform1">
+        <foaf:homepage>https://data.some.org/catalog/platform1</foaf:homepage>
+        <dct:description>플랫폼 설명 상세</dct:description>
+        <dct:title>플랫폼 명칭</dct:title>
         <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
         <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
         <dct:language>ko</dct:language>
         <dct:publisher>
-          <foaf:Organization>
-            <foaf:name>OOO센터</foaf:name>
-            <foaf:mbox>contact@some.org</foaf:mbox>
-          </foaf:Organization>
+            <foaf:Organization>
+                <foaf:name>OO 플랫폼</foaf:name>
+                <foaf:mbox>contact@some.org</foaf:mbox>
+            </foaf:Organization>
         </dct:publisher>
-        <dct:identifier>https://data.some.org/catalog/platform1/center1</dct:identifier>
+        <dct:identifier>https://data.some.org/catalog/platform1</dct:identifier>
         <dcat:theme>날씨</dcat:theme>
-        <dct:type>center</dct:type>
+        <dct:type>platform</dct:type>
 
-        <dcat:dataset>
-          <dcat:Dataset rdf:about="https://data.some.org/catalog/platform1/center1/dataset1">
-            <dct:accessRights>http://purl.org/eprint/accessRights/OpenAccess</dct:accessRights>
-            <dcat:contactPoint>
-              <foaf:Person>
-                <foaf:name>담당자2</foaf:name>
-                <foaf:phone>tel:+82.02.123.1234</foaf:name>
-              </foaf:Person>
-            </dcat:contactPoint>
-            <dcat:creator>
-              <foaf:Person>
-                <foaf:name>담당자2</foaf:name>
-                <foaf:phone>tel:+82.02.123.1234</foaf:name>
-              </foaf:Person>
-            </dcat:creator>
-            <dct:description>이 상품은 2019년 날씨정보입니다.</dct:description>
-            <dct:title>2019년 전국날씨</dct:title>
-            <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
-            <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
-            <dct:language>ko</dct:language>
-            <dcat:publisher>
-              <foaf:Person>
-                <foaf:name>담당자2</foaf:name>
-                <foaf:phone>tel:+82.02.123.1234</foaf:name>
-              </foaf:Person>
-            </dcat:publisher>
-            <dct:identifier>https://data.some.org/catalog/platform1/center1/dataset1</dct:identifier>
-            <dcat:theme>날씨</dcat:theme>
-            <dct:type>dataset</dct:type>
-            <dcat:keyword>날씨</dcat:keyword>
-            <dcat:keyword>온도</dcat:keyword>
-            <dcat:keyword>습도</dcat:keyword>
-            <dcat:keyword>강수량</dcat:keyword>
-            <dcat:keyword>기후 정보</dcat:keyword>
-            <dcat:keyword>weather</dcat:keyword>
-            <dcat:keyword>temperature</dcat:keyword>
-            <dcat:keyword>humidity</dcat:keyword>
-            <dcat:keyword>the amount of rainfall</dcat:keyword>
-            <dcat:keyword>climate information</dcat:keyword>
-            <dcat:landingPage>
-              https://data.some.org/catalog/platform1/center1/dataset1
-            </dcat:landingPage>
-
-            <dcat:distribution>
-              <dcat:Distribution>
-                <dcat:accessURL>https://data.some.org/catalog/platform1/center1/dataset1</dcat:accessURL>
-                <dcat:byteSize>698039</dcat:byteSize>
-                <dcat:downloadURL>https://data.some.org/catalog/platform1/center1/dataset1/resources/1.csv</dcat:downloadURL>
-                <dcat:mediaType>text/csv</dcat:mediaType>
-                <dct:format>csv</dct:format>
+        <dcat:catalog>
+            <dcat:Catalog rdf:about="https://data.some.org/catalog/platform1/center1">
+                <foaf:homepage>https://platform1-center1.data.some.org</foaf:homepage>
+                <dct:description>센터 설명 상세</dct:description>
+                <dct:title>센터 명칭</dct:title>
                 <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
                 <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
-                <dct:license>Creative Commons Attribution</dct:license>
-                <dct:title>대전날씨.csv</dct:title>
-              </dcat:Distribution>
-            </dcat:distribution>
+                <dct:language>ko</dct:language>
+                <dct:publisher>
+                    <foaf:Organization>
+                        <foaf:name>OOO센터</foaf:name>
+                        <foaf:mbox>contact@some.org</foaf:mbox>
+                    </foaf:Organization>
+                </dct:publisher>
+                <dct:identifier>https://data.some.org/catalog/platform1/center1</dct:identifier>
+                <dcat:theme>날씨</dcat:theme>
+                <dct:type>center</dct:type>
 
-          </dcat:Dataset>
-        </dcat:dataset>
+                <dcat:dataset>
+                    <dcat:Dataset rdf:about="https://data.some.org/catalog/platform1/center1/dataset1">
+                        <dct:accessRights>http://purl.org/eprint/accessRights/OpenAccess</dct:accessRights>
+                        <dcat:contactPoint>
+                            <foaf:Person>
+                                <foaf:name>담당자2</foaf:name>
+                                <foaf:phone>tel:+82.02.123.1234</foaf:phone>
+                            </foaf:Person>
+                        </dcat:contactPoint>
+                        <dcat:creator>
+                            <foaf:Person>
+                                <foaf:name>담당자2</foaf:name>
+                                <foaf:phone>tel:+82.02.123.1234</foaf:phone>
+                            </foaf:Person>
+                        </dcat:creator>
+                        <dct:description>이 상품은 2019년 날씨정보입니다.</dct:description>
+                        <dct:title>2019년 전국날씨</dct:title>
+                        <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
+                        <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
+                        <dct:language>ko</dct:language>
+                        <dcat:publisher>
+                            <foaf:Person>
+                                <foaf:name>담당자2</foaf:name>
+                                <foaf:phone>tel:+82.02.123.1234</foaf:phone>
+                            </foaf:Person>
+                        </dcat:publisher>
+                        <dct:identifier>https://data.some.org/catalog/platform1/center1/dataset1</dct:identifier>
+                        <dcat:theme>날씨</dcat:theme>
+                        <dct:type>dataset</dct:type>
+                        <dcat:keyword>날씨</dcat:keyword>
+                        <dcat:keyword>온도</dcat:keyword>
+                        <dcat:keyword>습도</dcat:keyword>
+                        <dcat:keyword>강수량</dcat:keyword>
+                        <dcat:keyword>기후 정보</dcat:keyword>
+                        <dcat:keyword>weather</dcat:keyword>
+                        <dcat:keyword>temperature</dcat:keyword>
+                        <dcat:keyword>humidity</dcat:keyword>
+                        <dcat:keyword>the amount of rainfall</dcat:keyword>
+                        <dcat:keyword>climate information</dcat:keyword>
+                        <dcat:landingPage>
+                            https://data.some.org/catalog/platform1/center1/dataset1
+                        </dcat:landingPage>
 
-        <dcat:service>
-          <dcat:DataService rdf:about="https://data.some.org/catalog/platform1/center1/dataservice1">
-            <dct:accessRights>http://purl.org/eprint/accessRights/OpenAccess</dct:accessRights>
-            <dcat:contactPoint>
-              <foaf:Person>
-                <foaf:name>담당자3</foaf:name>
-                <foaf:phone>tel:+82.02.123.1234</foaf:name>
-              </foaf:Person>
-            </dcat:contactPoint>
-            <dcat:creator>
-              <foaf:Person>
-                <foaf:name>담당자3</foaf:name>
-                <foaf:phone>tel:+82.02.123.1234</foaf:name>
-              </foaf:Person>
-            </dcat:creator>
-            <dct:description>실시간 지역별 날씨 데이터를 제공받을 수 있는 API 서비스 입니다.</dct:description>
-            <dct:title>실시간 전국날씨 데이터</dct:title>
-            <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
-            <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
-            <dct:language>ko</dct:language>
-            <dcat:publisher>
-              <foaf:Person>
-                <foaf:name>담당자3</foaf:name>
-                <foaf:phone>tel:+82.02.123.1234</foaf:name>
-              </foaf:Person>
-            </dcat:publisher>
-            <dct:identifier>https://data.some.org/catalog/platform1/center1/dataservice1</dct:identifier>
-            <dcat:theme>날씨</dcat:theme>
-            <dct:type>dataservice</dct:type>
+                        <dcat:distribution>
+                            <dcat:Distribution>
+                                <dcat:accessURL>https://data.some.org/catalog/platform1/center1/dataset1</dcat:accessURL>
+                                <dcat:byteSize>698039</dcat:byteSize>
+                                <dcat:downloadURL>https://data.some.org/catalog/platform1/center1/dataset1/resources/1.csv</dcat:downloadURL>
+                                <dcat:mediaType>text/csv</dcat:mediaType>
+                                <dct:format>csv</dct:format>
+                                <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
+                                <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
+                                <dct:license>Creative Commons Attribution</dct:license>
+                                <dct:title>대전날씨.csv</dct:title>
+                            </dcat:Distribution>
+                        </dcat:distribution>
 
-            <dcat:keyword>날씨</dcat:keyword>
-            <dcat:keyword>온도</dcat:keyword>
-            <dcat:keyword>습도</dcat:keyword>
-            <dcat:keyword>강수량</dcat:keyword>
-            <dcat:keyword>기후 정보</dcat:keyword>
-            <dcat:keyword>실시간</dcat:keyword>
-            <dcat:keyword>weather</dcat:keyword>
-            <dcat:keyword>temperature</dcat:keyword>
-            <dcat:keyword>humidity</dcat:keyword>
-            <dcat:keyword>the amount of rainfall</dcat:keyword>
-            <dcat:keyword>climate information</dcat:keyword>
-            <dcat:keyword>realtime</dcat:keyword>
-            <dcat:landingPage>https://data.some.org/catalog/platform1/center1/dataservice1</dcat:landingPage>
-          </dcat:DataService>
-        </dcat:service>
-      </dcat:Catalog>
-    </dcat:catalog>
-  </dcat:Catalog>
+                    </dcat:Dataset>
+                </dcat:dataset>
+
+                <dcat:service>
+                    <dcat:DataService rdf:about="https://data.some.org/catalog/platform1/center1/dataservice1">
+                        <dct:accessRights>http://purl.org/eprint/accessRights/OpenAccess</dct:accessRights>
+                        <dcat:contactPoint>
+                            <foaf:Person>
+                                <foaf:name>담당자3</foaf:name>
+                                <foaf:phone>tel:+82.02.123.1234</foaf:phone>
+                            </foaf:Person>
+                        </dcat:contactPoint>
+                        <dcat:creator>
+                            <foaf:Person>
+                                <foaf:name>담당자3</foaf:name>
+                                <foaf:phone>tel:+82.02.123.1234</foaf:phone>
+                            </foaf:Person>
+                        </dcat:creator>
+                        <dct:description>실시간 지역별 날씨 데이터를 제공받을 수 있는 API 서비스 입니다.</dct:description>
+                        <dct:title>실시간 전국날씨 데이터</dct:title>
+                        <dct:issued>2019-10-01 09:05:58.874+00</dct:issued>
+                        <dct:modified>2019-10-01 09:05:58.874+00</dct:modified>
+                        <dct:language>ko</dct:language>
+                        <dcat:publisher>
+                            <foaf:Person>
+                                <foaf:name>담당자3</foaf:name>
+                                <foaf:phone>tel:+82.02.123.1234</foaf:phone>
+                            </foaf:Person>
+                        </dcat:publisher>
+                        <dct:identifier>https://data.some.org/catalog/platform1/center1/dataservice1</dct:identifier>
+                        <dcat:theme>날씨</dcat:theme>
+                        <dct:type>dataservice</dct:type>
+
+                        <dcat:keyword>날씨</dcat:keyword>
+                        <dcat:keyword>온도</dcat:keyword>
+                        <dcat:keyword>습도</dcat:keyword>
+                        <dcat:keyword>강수량</dcat:keyword>
+                        <dcat:keyword>기후 정보</dcat:keyword>
+                        <dcat:keyword>실시간</dcat:keyword>
+                        <dcat:keyword>weather</dcat:keyword>
+                        <dcat:keyword>temperature</dcat:keyword>
+                        <dcat:keyword>humidity</dcat:keyword>
+                        <dcat:keyword>the amount of rainfall</dcat:keyword>
+                        <dcat:keyword>climate information</dcat:keyword>
+                        <dcat:keyword>realtime</dcat:keyword>
+                        <dcat:landingPage>https://data.some.org/catalog/platform1/center1/dataservice1</dcat:landingPage>
+                    </dcat:DataService>
+                </dcat:service>
+            </dcat:Catalog>
+        </dcat:catalog>
+    </dcat:Catalog>
 </rdf:RDF>
