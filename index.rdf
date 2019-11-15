@@ -5,7 +5,6 @@
  xmlns:dcat="http://www.w3.org/ns/dcat#"
  xmlns:foaf="http://xmlns.com/foaf/0.1/"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
- xmlns:tema="http://datos.gob.es/kos/sector-publico/sector/"
  xmlns:auto="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -73,8 +72,16 @@
             <dct:identifier>https://data.some.org/catalog/platform1/center1/dataset1</dct:identifier>
             <dcat:theme>날씨</dcat:theme>
             <dct:type>dataset</dct:type>
-            <dcat:keyword>전국날씨</dcat:keyword>
+            <dcat:keyword>날씨</dcat:keyword>
+            <dcat:keyword>온도</dcat:keyword>
+            <dcat:keyword>습도</dcat:keyword>
+            <dcat:keyword>강수량</dcat:keyword>
             <dcat:keyword>기후 정보</dcat:keyword>
+            <dcat:keyword>weather</dcat:keyword>
+            <dcat:keyword>temperature</dcat:keyword>
+            <dcat:keyword>humidity</dcat:keyword>
+            <dcat:keyword>the amount of rainfall</dcat:keyword>
+            <dcat:keyword>climate information</dcat:keyword>
             <dcat:landingPage>
               https://data.some.org/catalog/platform1/center1/dataset1
             </dcat:landingPage>
@@ -125,9 +132,19 @@
             <dct:identifier>https://data.some.org/catalog/platform1/center1/dataservice1</dct:identifier>
             <dcat:theme>날씨</dcat:theme>
             <dct:type>dataservice</dct:type>
-            <dcat:keyword>전국날씨</dcat:keyword>
-            <dcat:keyword>실시간 데이터</dcat:keyword>
-            <dcat:keyword>API</dcat:keyword>
+
+            <dcat:keyword>날씨</dcat:keyword>
+            <dcat:keyword>온도</dcat:keyword>
+            <dcat:keyword>습도</dcat:keyword>
+            <dcat:keyword>강수량</dcat:keyword>
+            <dcat:keyword>기후 정보</dcat:keyword>
+            <dcat:keyword>실시간</dcat:keyword>
+            <dcat:keyword>weather</dcat:keyword>
+            <dcat:keyword>temperature</dcat:keyword>
+            <dcat:keyword>humidity</dcat:keyword>
+            <dcat:keyword>the amount of rainfall</dcat:keyword>
+            <dcat:keyword>climate information</dcat:keyword>
+            <dcat:keyword>realtime</dcat:keyword>
             <dcat:landingPage>https://data.some.org/catalog/platform1/center1/dataservice1</dcat:landingPage>
           </dcat:DataService>
         </dcat:service>
